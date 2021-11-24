@@ -29,19 +29,10 @@ public class Pilha<T> {
 		return aux.valor;
 	}
 
-
-	
 	public T topo() {
             if (lista.topo.valor == null){
                 throw new NullPointerException("A pilha já está vazia");
             }
 		return (T) lista.topo.valor;
 	}
-
-       
-
-        
-        
-            
-
 }
