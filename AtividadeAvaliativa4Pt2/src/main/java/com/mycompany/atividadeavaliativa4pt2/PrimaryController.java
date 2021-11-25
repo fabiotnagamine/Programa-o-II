@@ -55,11 +55,7 @@ public class PrimaryController {
             alerta.setHeaderText("");
             alerta.setContentText(e.getMessage());
             alerta.showAndWait();
-        } catch (NullPointerException e) {
-            Alert alerta = new Alert(Alert.AlertType.ERROR);
-            alerta.setHeaderText("");
-            alerta.setContentText("A pilha já está vazia");
-            alerta.showAndWait();
+    
         }
     }
 
