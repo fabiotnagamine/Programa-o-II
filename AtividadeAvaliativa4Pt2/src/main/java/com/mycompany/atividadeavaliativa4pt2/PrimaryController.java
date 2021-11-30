@@ -43,7 +43,7 @@ public class PrimaryController {
     }
 
     @FXML
-    private <T> void desempilha() throws ExcecaoPilhaVazia {
+    private void desempilha() throws ExcecaoPilhaVazia {
 
         try {
             textoRetira.setText((String) pilha.topo());
